@@ -6,9 +6,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Cabin', sans-serif;
+  background-image: url('./bck.png')
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.mainCont {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+  border: 0.5px solid rgba(0, 0, 0, 0.356);
+}
+.awayPic {
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.658);
+}
+.myName {
+  margin-left: 30%;
+  font-size: 80px;
+  padding: 20px;
+}
+.imgFlex {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+}
+.navBar {
+  float: right;
+  display: flex;
+  flex-direction: row;
 }
