@@ -17,25 +17,151 @@ code {
   margin-left: 20%;
   margin-right: 20%;
   background-color: white;
-  border: 0.5px solid rgba(0, 0, 0, 0.356);
+  border: 5px solid rgba(0, 0, 0, 0.356);
+  display: flex;
+  flex-direction: column;
 }
 .awayPic {
-  height: 300px;
-  border: 1px solid rgba(0, 0, 0, 0.397);
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.658);
+  height: 400px;
+  width: 400px;
+  position: relative;
 }
 .myName {
-  margin-left: 30%;
+  text-align: center;
   font-size: 80px;
-  padding: 20px;
+  padding-top: 20px;
+  font-family: 'Exo';
+}
+.fullStack {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Exo';
+  padding-bottom: 20px;
 }
 .imgFlex {
   display: flex;
   flex-direction: row;
-  margin: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .navBar {
   float: right;
   display: flex;
   flex-direction: row;
+  margin-left: 5%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.imgCont {
+  height: 400px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  margin: 1px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.658);
+}
+.noDec {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s ease all;
+}
+.titleDec {
+  text-decoration: none;
+  color: black;
+}
+.noDec:hover {
+  transition: 0.5s ease all;
+  color: rgba(0, 0, 0, 0.473);
+}
+.linkText {
+  font-size: 18px;
+  padding: 10px;
+}
+.largePho {
+  height: 550px;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.658);
+}
+.meRight {
+  height: 100%;
+  width: 100%;
+}
+.myBio {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  word-spacing: 1px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.myBioCont {
+  border-top: 0.5px solid rgba(0, 0, 0, 0.418);
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.aboutMe {
+  margin-top: 10px;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+}
+.socialFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.socialIcon {
+  height: 50px;
+  width: 50px;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+.linkedIn {
+  height: 55px;
+  width: 55px;
+  padding-left: 30px;
+}
+.cFlex {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  transition: 0.5s ease all;
+}
+.cFlex:hover {
+  transition: 0.5s ease all;
+  color: rgb(168, 168, 168);
+}
+.iconFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.techImg {
+  height: 50px;
+}
+.projCont {
+  border-top: 0.5px solid rgba(0, 0, 0, 0.418);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.projPhoto {
+  height: 200px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .mainCont {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  .largePho {
+    height: 500px;
+  }
 }
