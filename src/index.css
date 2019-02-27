@@ -118,6 +118,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .socialIcon {
   height: 50px;
@@ -231,13 +232,71 @@ html {
   margin-top: 20px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
   .mainCont {
     margin-left: 2.5%;
     margin-right: 2.5%;
   }
   .largePho {
-    height: 500px;
+    height: 40%;
+    box-shadow: none;
+  }
+  .myName {
+    font-size: 60px;
+  }
+  .imgFlex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .awayPic {
+    width: 250px;
+    height: 250px;
+  }
+  .imgCont {
+    height: 250px;
+  }
+  .workCont {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .add {
+    padding-bottom: 15px;
+  }
+  .whatUsed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 1;
+  }
+  .whatUsedText {
+    padding: 5px;
+    text-align: center;
+  }
+  .whatUsed {
+    height: 100px;
+  }
+  .descText {
+    height: 100%;
+    width: 250px;
+  }
+  .projPhotoCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .botLinks {
+    text-align: center;
+  }
+  .projDesc {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .mainCont {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
   }
 }
 

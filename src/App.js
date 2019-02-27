@@ -141,7 +141,7 @@ class App extends Component {
               <div className='workCont'>
                 <div className='projDesc'>
                   <div className='descText'>Jobs&Jobs was my first real node.js application. This website is a simple job posting website, where anyone can submit a job posting with a job description, location, title, and company name. This application queries to a SQL database (MySQL), with users being able to add and search through job listings. The front end was created with EJS, a templating engine, for a sleek design layout. This application and it's database is also running on my own apache server, as a service.</div>
-                  <div className='botLinks'>
+                  <div className='botLinks add'>
                     <a href='http://jobsandjobs.taylorjohannsen.com/' className='noDec'>
                       <div className='pad'>Live Website</div>
                     </a>
@@ -203,7 +203,7 @@ class App extends Component {
               <div className='workCont'>
                 <div className='projDesc'>
                   <div className='descText'>Weather is a simple react application that uses fetch calls from front end JavaScript, to gain information from third party API's. In this example here, I used a free weather api to allow users to look up the current weather anywhere in the world by name or zip code. This app is hosted on my own apache server.</div>
-                  <div className='botLinks'>
+                  <div className='botLinks add'>
                     <a href='http://weather.taylorjohannsen.com/' className='noDec'>
                       <div className='pad'>Live Website</div>
                     </a>
