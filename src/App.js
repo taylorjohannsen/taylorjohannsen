@@ -23,23 +23,25 @@ class App extends Component {
   render() {
     return (
       <div>
-        <a className='titleDec' href='/'>
-          <div className='myName'>Taylor Johannsen</div>
-          <div className='fullStack'>Full Stack Web Developer</div>
-        </a>
-        <div className='socialFlex'>
-          <a className='titleDec cFlex' href='https://github.com/taylorjohannsen'>
-            <img className='socialIcon' alt="github" src={github}></img>
-            <div className="socialText">/taylorjohannsen</div>
+        <div className='Banner'>
+          <a className='titleDec' href='/'>
+            <div className='myName'>Taylor Johannsen</div>
+            <div className='fullStack'>Full Stack Web Developer</div>
           </a>
-          <a className='titleDec cFlex' href='https://www.linkedin.com/in/taylorjohannsen/'>
-            <img className='linkedIn' alt="linkedin" src={linkedin}></img>
-            <div className="socialText">/taylorjohannsen</div>
-          </a>
-          <a className='titleDec cFlex' href='mailto:taylorjohannsen@gmail.com'>
-            <img className='linkedIn' alt="email" src={email}></img>
-            <div className="socialText">@taylorjohannsen</div>
-          </a>
+          <div className='socialFlex'>
+            <a className='titleDec cFlex' href='https://github.com/taylorjohannsen'>
+              <img className='socialIcon' alt="github" src={github}></img>
+              <div className="socialText">/taylorjohannsen</div>
+            </a>
+            <a className='titleDec cFlex' href='https://www.linkedin.com/in/taylorjohannsen/'>
+              <img className='linkedIn' alt="linkedin" src={linkedin}></img>
+              <div className="socialText">/taylorjohannsen</div>
+            </a>
+            <a className='titleDec cFlex' href='mailto:taylorjohannsen@gmail.com'>
+              <img className='linkedIn' alt="email" src={email}></img>
+              <div className="socialText">@taylorjohannsen</div>
+            </a>
+          </div>
         </div>
         <div className='mainCont'>
           <div className='navBar'>
@@ -118,7 +120,7 @@ class App extends Component {
                   <div className='whatUsedText'>Apache</div>
                 </div>
                 <div className='projDesc'>
-                  <div className='descText'>My name is Taylor Johannsen, I am a full stack web developer from Simi Valley, CA. My experience spans HTML/CSS, Javascript, React, Node.js, MongoDB, MySQL, and Git. I have worked in the IT field for over a year, with my previous job being manager experience in a retail setting.</div>
+                  <div className='descText'>Chute is a full stack node.js application, and currently my largest project. It's a CRUD type forum/social media site that users can create accounts for. These users have their credentials hashed, salted, and then saved in to a MongoDB database. Passport.js (a node package) then authenticates the users on login, then express session, will ensure that the user is currently authenticated as they move from page to page. Each page is created with a templating engine, EJS, to dynamically change based on the users actions, using data from the DB. The website is currently hosted on my own server as a node application running as a service, and Apache using a proxy to serve it to users.</div>
                   <div className='botLinks'>
                     <a href='http://chute.taylorjohannsen.com/' className='noDec'>
                       <div className='pad'>Live Website</div>
@@ -137,7 +139,7 @@ class App extends Component {
               </a>
               <div className='workCont'>
                 <div className='projDesc'>
-                  <div className='descText'>My name is Taylor Johannsen, I am a full stack web developer from Simi Valley, CA. My experience spans HTML/CSS, Javascript, React, Node.js, MongoDB, MySQL, and Git. I have worked in the IT field for over a year, with my previous job being manager experience in a retail setting.</div>
+                  <div className='descText'>Jobs&Jobs was my first real node.js application. This website is a simple job posting website, where anyone can submit a job posting with a job description, location, title, and company name. This application queries to a SQL database (MySQL), with users being able to add and search through job listings. The front end was created with EJS, a templating engine, for a sleek design layout. This application and it's database is also running on my own apache server, as a service.</div>
                   <div className='botLinks'>
                     <a href='http://jobsandjobs.taylorjohannsen.com/' className='noDec'>
                       <div className='pad'>Live Website</div>
