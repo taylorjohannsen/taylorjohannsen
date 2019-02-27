@@ -51,7 +51,7 @@ class App extends Component {
             <a className='noDec' href='#Projects'>
               <div className='linkText'>Projects</div>
             </a>
-            <a className='noDec' href='/'>
+            <a className='noDec' href='#Contact'>
               <div className='linkText'>Contact</div>
             </a>
           </div>
@@ -115,6 +115,7 @@ class App extends Component {
                   <div className='whatUsedText'>HTML/CSS</div>
                   <div className='whatUsedText'>JavaScript</div>
                   <div className='whatUsedText'>Node.js</div>
+                  <div className='whatUsedText'>Express.js</div>
                   <div className='whatUsedText'>Passport.js</div>
                   <div className='whatUsedText'>MongoDB</div>
                   <div className='whatUsedText'>Apache</div>
@@ -182,7 +183,7 @@ class App extends Component {
                   <div className='whatUsedText'>Windows IIS</div>
                 </div>
                 <div className='projDesc'>
-                  <div className='descText'>My name is Taylor Johannsen, I am a full stack web developer from Simi Valley, CA. My experience spans HTML/CSS, Javascript, React, Node.js, MongoDB, MySQL, and Git. I have worked in the IT field for over a year, with my previous job being manager experience in a retail setting.</div>
+                  <div className='descText'>IT Basecamp was a real-world project I developed for the company I work for. The issue needing a resolution is that we needed documentation of our procedures reguarding IT. I had others write the documentation then I created a website around that, so new hires could learn. The website was developed in React, rendering different information by clicking on buttons. The website is hosted on the company web server using Windows IIS.</div>
                   <div className='botLinks'>
                     <a href='http://basecamp.c21everest.com/' className='noDec'>
                       <div className='pad'>Live Website</div>
@@ -195,13 +196,13 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            <div className='eachProj'>
+            <div id='lastProj' className='eachProj'>
               <a href='http://weather.taylorjohannsen.com/' className='noDec'>
                 <div className='projTitleRight'>Weather</div>
               </a>
               <div className='workCont'>
                 <div className='projDesc'>
-                  <div className='descText'>My name is Taylor Johannsen, I am a full stack web developer from Simi Valley, CA. My experience spans HTML/CSS, Javascript, React, Node.js, MongoDB, MySQL, and Git. I have worked in the IT field for over a year, with my previous job being manager experience in a retail setting.</div>
+                  <div className='descText'>Weather is a simple react application that uses fetch calls from front end JavaScript, to gain information from third party API's. In this example here, I used a free weather api to allow users to look up the current weather anywhere in the world by name or zip code. This app is hosted on my own apache server.</div>
                   <div className='botLinks'>
                     <a href='http://weather.taylorjohannsen.com/' className='noDec'>
                       <div className='pad'>Live Website</div>
@@ -225,7 +226,23 @@ class App extends Component {
                 </div>
               </div>
             </div>
-
+            <div id="Contact" className='aboutMe'>Contact</div>
+            <div className='contactCont'>
+              <div className='socialFlex'>
+              <a className='titleDec cFlex' href='https://github.com/taylorjohannsen'>
+                <img className='socialIcon' alt="github" src={github}></img>
+                <div className="socialText">/taylorjohannsen</div>
+              </a>
+              <a className='titleDec cFlex' href='https://www.linkedin.com/in/taylorjohannsen/'>
+                <img className='linkedIn' alt="linkedin" src={linkedin}></img>
+                <div className="socialText">/taylorjohannsen</div>
+              </a>
+              <a className='titleDec cFlex' href='mailto:taylorjohannsen@gmail.com'>
+                <img className='linkedIn' alt="email" src={email}></img>
+                <div className="socialText">@taylorjohannsen</div>
+              </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

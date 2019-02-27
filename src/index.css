@@ -23,6 +23,7 @@ html {
   border: 5px solid rgba(0, 0, 0, 0.356);
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 .awayPic {
   height: 400px;
@@ -153,8 +154,8 @@ html {
   border-bottom: 1px solid black;
   padding-bottom: 30px;
 }
-.eachProj:last-child {
-  border: none;
+#lastProj {
+  border-bottom: none !important;
 }
 .workCont {
   display: flex;
@@ -220,6 +221,14 @@ html {
 }
 .Banner {
   animation: 0.8s ease-out 0s 1 slideInBottom;
+}
+#Contact {
+  margin-top: 30px;
+}
+.contactCont {
+  border-top: 0.5px solid rgba(0, 0, 0, 0.418);
+  padding-top: 20px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
