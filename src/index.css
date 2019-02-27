@@ -13,6 +13,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+html {
+  scroll-behavior: smooth;
+}
 .mainCont {
   margin-left: 20%;
   margin-right: 20%;
@@ -95,7 +98,7 @@ code {
   margin-top: 20px;
   word-spacing: 1px;
   line-height: 1.5;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .myBioCont {
   border-top: 0.5px solid rgba(0, 0, 0, 0.418);
@@ -145,15 +148,69 @@ code {
 .techImg {
   height: 50px;
 }
+.eachProj {
+  margin-top: 40px;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+}
+.eachProj:last-child {
+  border: none;
+}
+.workCont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.projPhotoCont {
+  overflow: hidden;
+}
+.whatUsed {
+  color: grey;
+  line-height: 2;
+  height: 200px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.projDesc {
+  width: 40%;
+  margin-top: 30px;
+  font-size: 15px;
+}
 .projCont {
   border-top: 0.5px solid rgba(0, 0, 0, 0.418);
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 5%;
   margin-right: 5%;
 }
 .projPhoto {
   height: 200px;
+}
+.projTitle {
+  font-size: 35px;
+  font-family: 'Exo';
+  font-weight: bold;
+  margin-left: 10%;
+  padding-bottom: 10px;
+}
+.projTitleRight {
+  font-size: 35px;
+  font-family: 'Exo';
+  font-weight: bold;
+  margin-right: 10%;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.botLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+.pad {
+  padding: 5px;
 }
 
 @media only screen and (max-width: 1200px) {
