@@ -18,6 +18,7 @@ import chute from './pictures/chute.png';
 import jobs from './pictures/jobs.png';
 import base from './pictures/base.jpg';
 import weather from './pictures/weather.jpg';
+import everest from './pictures/everest.png';
 
 class App extends Component {
   render() {
@@ -196,7 +197,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            <div id='lastProj' className='eachProj'>
+            <div  className='eachProj'>
               <a href='http://weather.taylorjohannsen.com/' className='noDec'>
                 <div className='projTitleRight'>Weather</div>
               </a>
@@ -223,6 +224,33 @@ class App extends Component {
                   <a href='http://weather.taylorjohannsen.com/' className='noDec'>
                     <img alt='chute' className='projPhoto' src={weather}></img>
                     </a>
+                </div>
+              </div>
+            </div>
+            <div id='lastProj' className='eachProj'>
+              <a href='https://taylorjohannsen.github.io/newleadership/' className='noDec'>
+                <div className='projTitle'>Leadership</div>
+              </a>
+              <div className='workCont'>
+                <div className='projPhotoCont'>
+                  <a href='https://taylorjohannsen.github.io/newleadership/' className='noDec'>
+                    <img alt='everest' className='projPhoto' src={everest}></img>
+                    </a>
+                </div>
+                <div className='whatUsed'>
+                  <div className='whatUsedText'>HTML/CSS</div>
+                </div>
+                <div className='projDesc'>
+                  <div className='descText'>This Leadership page is for the adminstrators of Century 21 Everest. They had me take a design from a .pdf, then convert it to an actual webpage. They use a third party company for their website, so you are very limited on what you can write (just basic css/html).</div>
+                  <div className='botLinks'>
+                    <a href='https://taylorjohannsen.github.io/newleadership/' className='noDec'>
+                      <div className='pad'>Live Website</div>
+                    </a>
+                    <div className='pad'> - </div>
+                    <a href='https://github.com/taylorjohannsen/newleadership' className='noDec'>
+                      <div className='pad'>Github Code</div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
