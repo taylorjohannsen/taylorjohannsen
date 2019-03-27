@@ -109,7 +109,7 @@ class App extends Component {
               </a>
               <div className='workCont'>
                 <div className='projDesc'>
-                  <div className='descText'>Bulldog Liqiudators is a website that was created for it's Camarillo, CA branch. The head of the branch tasked me to create a website where they could post inventory to customers. With this information I created a Node.js application using express, that allowed the admin to access the backend I created using Passport and MongoDB. Using the backend of the site, they can add / delete inventory, add / delete photos, and update listings accordingly. The front end consisted of EJS, a templating engine. The website would not be hosted on my own server, but on NodeChef.</div>
+                  <div className='descText'>Bulldog Liqiudators is a website that was created for it's Camarillo, CA branch. The head of the branch tasked me to create a website where they could post inventory to customers. With this information I created a Node.js application using express, that allowed the admin to access the backend I created using Passport and MongoDB. Using the backend of the site, they can add / delete inventory, add / delete photos, and update listings accordingly. The front end consisted of EJS, a templating engine. The website would not be hosted on my own server, but on Heroku.</div>
                   <div className='botLinks add'>
                     <a href='http://bulldog.taylorjohannsen.com/' className='noDec'>
                       <div className='pad'>Live Website</div>
