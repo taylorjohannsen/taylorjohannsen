@@ -9,77 +9,94 @@ body {
   font-family: 'Cabin', sans-serif;
   background-image: url('./bck.png')
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 .mainCont {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
   background-color: white;
   border: 5px solid rgba(0, 0, 0, 0.356);
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
 }
-.awayPic {
-  height: 400px;
-  width: 400px;
-  position: relative;
-}
+
 .myName {
   text-align: center;
   font-size: 80px;
   padding-top: 20px;
   font-family: 'Exo';
 }
+
 .fullStack {
   text-align: center;
   font-size: 40px;
   font-family: 'Exo';
   padding-bottom: 20px;
 }
+
 .imgFlex {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 30px;
 }
+
 .navBar {
   float: right;
   display: flex;
   flex-direction: row;
-  margin-left: 5%;
+  margin-left: 1%;
   padding-bottom: 5px;
   padding-top: 5px;
 }
+
 .imgCont {
   height: 400px;
+  width: auto;
   overflow: hidden;
   border: 1px solid rgba(0, 0, 0, 0.397);
   margin: 1px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.658);
 }
+
+.awayPic {
+  height: auto;
+  width: 400px;
+  position: relative;
+}
+
 .noDec {
   text-decoration: none;
   color: black;
   transition: 0.5s ease all;
 }
+
 .titleDec {
   text-decoration: none;
   color: black;
 }
+
 .noDec:hover {
   transition: 0.5s ease all;
   color: rgba(0, 0, 0, 0.473);
 }
+
 .linkText {
   font-size: 18px;
   padding: 10px;
 }
+
 .largePho {
   height: 550px;
   overflow: hidden;
@@ -89,10 +106,12 @@ html {
   margin-right: 5%;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.658);
 }
+
 .meRight {
   height: 100%;
   width: 100%;
 }
+
 .myBio {
   text-align: center;
   font-size: 20px;
@@ -101,6 +120,7 @@ html {
   line-height: 1.5;
   margin-bottom: 40px;
 }
+
 .myBioCont {
   border-top: 0.5px solid rgba(0, 0, 0, 0.418);
   padding-top: 20px;
@@ -108,65 +128,78 @@ html {
   margin-left: 10%;
   margin-right: 10%;
 }
+
 .aboutMe {
   margin-top: 10px;
   font-size: 35px;
   font-weight: 500;
   text-align: center;
 }
+
 .socialFlex {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .socialIcon {
   height: 50px;
   width: 50px;
   padding-left: 30px;
   padding-top: 5px;
 }
+
 .linkedIn {
   height: 55px;
   width: 55px;
   padding-left: 30px;
 }
+
 .cFlex {
   display: flex;
   flex-direction: column;
   padding: 20px;
   transition: 0.5s ease all;
 }
+
 .cFlex:hover {
   transition: 0.5s ease all;
   color: rgb(168, 168, 168);
 }
+
 .iconFlex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .techImg {
   height: 50px;
 }
+
 .eachProj {
   margin-top: 40px;
   border-bottom: 1px solid black;
   padding-bottom: 30px;
 }
+
 #lastProj {
   border-bottom: none !important;
 }
+
 .workCont {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .projPhotoCont {
   overflow: hidden;
 }
+
 .whatUsed {
   color: grey;
   line-height: 2;
@@ -174,11 +207,13 @@ html {
   padding-left: 5px;
   padding-right: 5px;
 }
+
 .projDesc {
   width: 40%;
   margin-top: 5px;
   font-size: 15px;
 }
+
 .projCont {
   border-top: 0.5px solid rgba(0, 0, 0, 0.418);
   margin-bottom: 10px;
@@ -186,15 +221,18 @@ html {
   margin-left: 5%;
   margin-right: 5%;
 }
+
 .projPhoto {
   height: 200px;
   border: 3px solid rgba(94, 94, 94, 0.911);
   transition: 1s ease all;
 }
+
 .projPhoto:hover {
   transition: 1.5s ease all;
   border: 3px solid rgba(192, 192, 192, 0.774);
 }
+
 .projTitle {
   font-size: 35px;
   font-family: 'Exo';
@@ -202,6 +240,7 @@ html {
   margin-left: 10%;
   padding-bottom: 10px;
 }
+
 .projTitleRight {
   font-size: 35px;
   font-family: 'Exo';
@@ -211,25 +250,37 @@ html {
   display: flex;
   justify-content: flex-end;
 }
+
 .botLinks {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 20px;
 }
+
 .pad {
   padding: 5px;
 }
+
 .Banner {
   animation: 0.8s ease-out 0s 1 slideInBottom;
 }
+
 #Contact {
   margin-top: 30px;
 }
+
 .contactCont {
   border-top: 0.5px solid rgba(0, 0, 0, 0.418);
   padding-top: 20px;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .mainCont {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -237,57 +288,62 @@ html {
     margin-left: 2.5%;
     margin-right: 2.5%;
   }
+
   .largePho {
     height: 40%;
     box-shadow: none;
   }
+
   .myName {
     font-size: 60px;
   }
+
   .imgFlex {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .awayPic {
-    width: 250px;
-    height: 250px;
-  }
-  .imgCont {
-    height: 250px;
-  }
+
   .workCont {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
   }
+
   .add {
     padding-bottom: 15px;
   }
+
   .whatUsed {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     line-height: 1;
   }
+
   .whatUsedText {
     padding: 5px;
     text-align: center;
   }
+
   .whatUsed {
     height: 100px;
   }
+
   .descText {
     height: 100%;
     width: 250px;
   }
+
   .projPhotoCont {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
+
   .botLinks {
     text-align: center;
   }
+
   .projDesc {
     width: 100%;
   }
@@ -298,10 +354,12 @@ html {
     margin-left: 2.5%;
     margin-right: 2.5%;
   }
+
   .descText {
     text-align: center;
     width: 100%;
   }
+
   .whatUsed {
     text-align: center;
     justify-content: center;
@@ -313,8 +371,34 @@ html {
     transform: translateY(-100px);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0px);
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .awayPic {
+    width: 100%;
+  }
+
+  .imgCont {
+    height: 250px;
+  }
+
+  .myBio {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    word-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }  
+}
+
+@media only screen and (max-width: 300px) {
+  .imgCont {
+    height: 200px;
   }
 }
