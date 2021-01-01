@@ -46,7 +46,7 @@ html {
 .imgFlex {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 30px;
@@ -56,6 +56,7 @@ html {
   float: right;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin-left: 1%;
   padding-bottom: 5px;
   padding-top: 5px;
@@ -180,7 +181,7 @@ html {
 }
 
 .eachProj {
-  margin-top: 40px;
+  margin-top: 20px;
   border-bottom: 1px solid black;
   padding-bottom: 30px;
 }
@@ -237,18 +238,16 @@ html {
   font-size: 35px;
   font-family: 'Exo';
   font-weight: bold;
-  margin-left: 10%;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  text-align: left;
 }
 
 .projTitleRight {
   font-size: 35px;
   font-family: 'Exo';
   font-weight: bold;
-  margin-right: 10%;
-  padding-bottom: 10px;
-  display: flex;
-  justify-content: flex-end;
+  padding-bottom: 20px;
+  text-align: left;
 }
 
 .botLinks {
@@ -274,6 +273,10 @@ html {
   border-top: 0.5px solid rgba(0, 0, 0, 0.418);
   padding-top: 20px;
   margin-top: 20px;
+}
+
+.discBot {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1400px) {
