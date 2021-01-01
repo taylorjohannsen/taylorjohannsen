@@ -27,20 +27,6 @@ class App extends Component {
                         <div className='myName'>Taylor Johannsen</div>
                         <div className='fullStack'>Full Stack Software Developer</div>
                     </a>
-                    <div className='socialFlex'>
-                        <a className='titleDec cFlex' href='https://github.com/taylorjohannsen'>
-                            <img className='socialIcon' alt="github" src={github}></img>
-                            <div className="socialText">/taylorjohannsen</div>
-                        </a>
-                        <a className='titleDec cFlex' href='https://www.linkedin.com/in/taylorjohannsen/'>
-                            <img className='linkedIn' alt="linkedin" src={linkedin}></img>
-                            <div className="socialText">/taylorjohannsen</div>
-                        </a>
-                        <a className='titleDec cFlex' href='mailto:taylorjohannsen@gmail.com'>
-                            <img className='linkedIn' alt="email" src={email}></img>
-                            <div className="socialText">@taylorjohannsen</div>
-                        </a>
-                    </div>
                 </div>
                 <div className='mainCont'>
                     <div className='navBar'>
@@ -98,39 +84,6 @@ class App extends Component {
                     <div id="Projects" className='aboutMe'>Projects</div>
                     <div className='projCont'>
                         <div className='eachProj'>
-                            <a href='https://www.bulldogliquidatorsofcamarillo.com/' className='noDec'>
-                                <div className='projTitleRight'>Bulldog Liquidators</div>
-                            </a>
-                            <div className='workCont'>
-                                <div className='projDesc'>
-                                    <div className='descText'>Bulldog Liqiudators is a website that was created for it's Camarillo, CA branch. The head of the branch tasked me to create a website where they could post inventory to customers. With this information I created a Node.js application using express, that allowed the admin to access the backend I created using Passport and MongoDB. Using the backend of the site, they can add / delete inventory, add / delete photos, and update listings accordingly. The front end consisted of EJS, a templating engine. The website would not be hosted on my own server, but on Heroku.</div>
-                                    <div className='botLinks add'>
-                                        <a href='https://www.bulldogliquidatorsofcamarillo.com/' className='noDec'>
-                                            <div className='pad'>Live Website</div>
-                                        </a>
-                                        <div className='pad'> - </div>
-                                        <a href='https://github.com/taylorjohannsen/bulldog' className='noDec'>
-                                            <div className='pad'>Github Code</div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className='whatUsed'>
-                                    <div className='whatUsedText'>HTML/CSS</div>
-                                    <div className='whatUsedText'>JavaScript</div>
-                                    <div className='whatUsedText'>Node.js</div>
-                                    <div className='whatUsedText'>Express.js</div>
-                                    <div className='whatUsedText'>Passport.js</div>
-                                    <div className='whatUsedText'>EJS</div>
-                                    <div className='whatUsedText'>MongoDB</div>
-                                </div>
-                                <div className='projPhotoCont'>
-                                    <a href='https://www.bulldogliquidatorsofcamarillo.com/' className='noDec'>
-                                        <img alt='chute' className='projPhoto' src={bulldog}></img>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='eachProj'>
                             <a href='https://www.chicagoalfaromeodealers.com/' className='noDec'>
                                 <div className='projTitleRight'>Alfa Romeo Chicagoland</div>
                             </a>
@@ -184,6 +137,39 @@ class App extends Component {
                                 <div className='projPhotoCont'>
                                     <a href='https://www.ohkyalfaromeodealers.com/' className='noDec'>
                                         <img alt='chute' className='projPhoto' src={ohky}></img>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='eachProj'>
+                            <a href='https://www.bulldogliquidatorsofcamarillo.com/' className='noDec'>
+                                <div className='projTitleRight'>Bulldog Liquidators</div>
+                            </a>
+                            <div className='workCont'>
+                                <div className='projDesc'>
+                                    <div className='descText'>Bulldog Liqiudators is a website that was created for it's Camarillo, CA branch. The head of the branch tasked me to create a website where they could post inventory to customers. With this information I created a Node.js application using express, that allowed the admin to access the backend I created using Passport and MongoDB. Using the backend of the site, they can add / delete inventory, add / delete photos, and update listings accordingly. The front end consisted of EJS, a templating engine. The website would not be hosted on my own server, but on Heroku.</div>
+                                    <div className='botLinks add'>
+                                        <a href='https://www.bulldogliquidatorsofcamarillo.com/' className='noDec'>
+                                            <div className='pad'>Live Website</div>
+                                        </a>
+                                        <div className='pad'> - </div>
+                                        <a href='https://github.com/taylorjohannsen/bulldog' className='noDec'>
+                                            <div className='pad'>Github Code</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className='whatUsed'>
+                                    <div className='whatUsedText'>HTML/CSS</div>
+                                    <div className='whatUsedText'>JavaScript</div>
+                                    <div className='whatUsedText'>Node.js</div>
+                                    <div className='whatUsedText'>Express.js</div>
+                                    <div className='whatUsedText'>Passport.js</div>
+                                    <div className='whatUsedText'>EJS</div>
+                                    <div className='whatUsedText'>MongoDB</div>
+                                </div>
+                                <div className='projPhotoCont'>
+                                    <a href='https://www.bulldogliquidatorsofcamarillo.com/' className='noDec'>
+                                        <img alt='chute' className='projPhoto' src={bulldog}></img>
                                     </a>
                                 </div>
                             </div>
