@@ -84,64 +84,6 @@ class App extends Component {
                     <div id="Projects" className='aboutMe'>Projects</div>
                     <div className='projCont'>
                         <div className='eachProj'>
-                            <a href='https://www.chicagoalfaromeodealers.com/' className='noDec'>
-                                <div className='projTitleRight'>Alfa Romeo Chicagoland</div>
-                            </a>
-                            <div className='workCont'>
-                                <div className='projDesc'>
-                                    <div className='descText'>Alfa Romeo Chicagoland is a Tier 2 website made for a group of Alfa Romeo dealers in the Chicago area. I was given project lead with the responsibility of managing a handful of devs and their tasks, while also taking on a majority of the work for this project. I had my hand in almost every section in this project. From writing the API on the backend, building out the front-end from designs, setting up databases, and hosting on Google Cloud Engine. The project was a success with the team finishing the project a week early under my leadership.</div>
-                                    <div className='botLinks add'>
-                                        <a href='https://www.chicagoalfaromeodealers.com/' className='noDec'>
-                                            <div className='pad'>Live Website</div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className='whatUsed'>
-                                    <div className='whatUsedText'>HTML/CSS</div>
-                                    <div className='whatUsedText'>JavaScript</div>
-                                    <div className='whatUsedText'>Node.js</div>
-                                    <div className='whatUsedText'>Express.js</div>
-                                    <div className='whatUsedText'>EJS</div>
-                                    <div className='whatUsedText'>MongoDB</div>
-                                    <div className='whatUsedText'>GCE</div>
-                                </div>
-                                <div className='projPhotoCont'>
-                                    <a href='https://www.chicagoalfaromeodealers.com/' className='noDec'>
-                                        <img alt='chute' className='projPhoto' src={alfa}></img>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='eachProj'>
-                            <a href='https://www.ohkyalfaromeodealers.com/' className='noDec'>
-                                <div className='projTitleRight'>Alfa Romeo Ohio Kentucky</div>
-                            </a>
-                            <div className='workCont'>
-                                <div className='projDesc'>
-                                    <div className='descText'>Alfa Romeo Ohio Kentucky is a Tier 2 website made for a group of Alfa Romeo dealers in the Ohio-Kentucky area. This site was a carbon copy of the Chicagoland website. I was tasked alone to basically copy the site, including databases and hosting. The client wanted a couple changes which I took care of and had the project ready before the deadline launch.</div>
-                                    <div className='botLinks add'>
-                                        <a href='https://www.ohkyalfaromeodealers.com/' className='noDec'>
-                                            <div className='pad'>Live Website</div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className='whatUsed'>
-                                    <div className='whatUsedText'>HTML/CSS</div>
-                                    <div className='whatUsedText'>JavaScript</div>
-                                    <div className='whatUsedText'>Node.js</div>
-                                    <div className='whatUsedText'>Express.js</div>
-                                    <div className='whatUsedText'>EJS</div>
-                                    <div className='whatUsedText'>MongoDB</div>
-                                    <div className='whatUsedText'>GCE</div>
-                                </div>
-                                <div className='projPhotoCont'>
-                                    <a href='https://www.ohkyalfaromeodealers.com/' className='noDec'>
-                                        <img alt='chute' className='projPhoto' src={ohky}></img>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='eachProj'>
                             <a href='https://www.bulldogliquidatorsofcamarillo.com/' className='noDec'>
                                 <div className='projTitleRight'>Bulldog Liquidators</div>
                             </a>
