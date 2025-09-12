@@ -19,6 +19,8 @@ import ohky from './pictures/ohky.jpg';
 import smite from './pictures/smite.png';
 
 class App extends Component {
+    // test
+    
     render() {
         return (
             <div>
